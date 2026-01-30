@@ -20,12 +20,12 @@ Before building this project, ensure you have the following installed:
 3.  **Boost Libraries:** Specifically the `system` and `program_options` components.
 
 ### Installation (Linux/Ubuntu)
-
+```
 sudo apt-get update
-sudo apt-get install build-essential cmake libboost-all-dev
-
+sudo apt-get install build-essential cmake libboost-all-dev 
+```
 ### 🚀 How to Build and Run
-```bash
+```
 1.Clone the repository
 git clone [https://github.com/RashmiKumari13/cyber_project.git](https://github.com/RashmiKumari13/cyber_project.git)
 cd simple-port-scanner
@@ -45,7 +45,7 @@ Flag,Description,Default
 "-p, --ports","Port range (e.g., 1-1000)",1-1024
 "-t, --threads",Max concurrent threads,100
 "-e, --expiry",Timeout in seconds,2
-
+```
 ## ⚠️ Disclaimer
 Educational Purpose Only. This tool is created for learning network protocols and C++ concurrency. Do not use this tool against any systems you do not own or have explicit, written permission to test. Unauthorized scanning can be illegal and is easily detected by firewalls.
 
